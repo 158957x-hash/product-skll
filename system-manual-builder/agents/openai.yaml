@@ -1,0 +1,7 @@
+interface:
+  display_name: "系统操作手册编写器"
+  short_description: "遍历后台与小程序并生成带截图的中文 Word 操作手册"
+  default_prompt: "使用 $system-manual-builder，根据已授权系统和素材生成带截图的中文操作手册。"
+
+policy:
+  allow_implicit_invocation: true
