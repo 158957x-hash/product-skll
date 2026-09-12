@@ -1,0 +1,7 @@
+interface:
+  display_name: "需求分析助手"
+  short_description: "结合项目资料与互联网调研，形成可追溯、可验收的需求成果"
+  default_prompt: "使用 $requirements-analysis，根据项目资料和针对性互联网调研完成需求分析。"
+
+policy:
+  allow_implicit_invocation: true
